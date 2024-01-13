@@ -1,4 +1,4 @@
-# Final Project
+# Project Overview
 [![Build Status](https://travis-ci.com/melahat-tayli/2020fa-final-project-melahat-tayli.svg?token=dgPsxw4xayEVSd1T3haz&branch=master)](https://travis-ci.com/melahat-tayli/2020fa-final-project-melahat-tayli)
 
 ### Description:
@@ -40,7 +40,7 @@ To reach amazon s3 bucket:
 Make a .env file in the root directory (where `README.md` file is) and write your `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` to `.env` file.
 
 
-### Details of final-project package:
+### Details of project package:
 There are four modules for luigi tasks and one module for data-specific preprocessing (`preprocess_heart.py`).
 In this repo, data folder (in the root directory) keeps the data that will be analyzed.
 Also; models, graphs etc. are created in the data folder after running the luigi pipeline.
