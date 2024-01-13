@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+numpy = "*"
+pandas = "*"
+sklearn = "*"
+matplotlib = "*"
+luigi = '*'
+fsspec = "*"
+s3fs = "==0.4.2"
+boto3 = "*"
+statsmodels = "*"
+django = "==2.2.7"
+bokeh = "*"
+channels = "==2.4.0"
+panel = "*"
+
+[requires]
+python_version = "3.7"
